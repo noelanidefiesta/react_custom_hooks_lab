@@ -1,11 +1,11 @@
-import Form from "./Form";
-function App() {
+import Form from "./form";
+
+export default function App() {
   return (
-    <div>
-      <h2>Service Form</h2>
+    <main style={{ fontFamily: "system-ui, Arial, sans-serif", padding: 16 }}>
+      <h1>Repair Request</h1>
+      <p>Type in your details, refresh the page, and notice your inputs persist.</p>
       <Form />
-    </div>
+    </main>
   );
 }
-
-export default App
