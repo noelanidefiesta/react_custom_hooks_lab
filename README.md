@@ -104,3 +104,5 @@ The application passes all test suites.
 Ensure the application:
 - **Persists user data between refreshes.**
 - **Has a functional custom hook (`useLocalStorage`).**
+
+Final push for codegrade
